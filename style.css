@@ -385,3 +385,70 @@ footer .container {
     display: block; /* Mostra o botão */
     opacity: 1;
 }
+
+
+/* Define a fonte Comfortaa */
+@font-face {
+    font-family: 'Comfortaa'; /* Nome que você dará para essa fonte no seu CSS */
+    src: url('../Fontes/Comfortaa/Comfortaa-Regular.ttf') format('truetype'); /* Ajuste o caminho e o formato conforme o arquivo da sua fonte */
+    font-weight: normal; /* Define a espessura normal da fonte */
+    font-style: normal; /* Define o estilo normal da fonte */
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../Fontes/Comfortaa/Comfortaa-Bold.ttf') format('truetype'); /* Exemplo para a versão bold */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../Fontes/Comfortaa/Comfortaa-Italic.ttf') format('truetype'); /* Exemplo para a versão itálico */
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Define a fonte Roboto */
+@font-face {
+    font-family: 'Roboto'; /* Nome que você dará para essa fonte no seu CSS */
+    src: url('../Fontes/roboto/Roboto-Regular.ttf') format('truetype'); /* Ajuste o caminho e o formato conforme o arquivo da sua fonte */
+    font-weight: normal; /* Define a espessura normal da fonte */
+    font-style: normal; /* Define o estilo normal da fonte */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fontes/roboto/Roboto-Bold.ttf') format('truetype'); /* Exemplo para a versão bold */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fontes/roboto/Roboto-Italic.ttf') format('truetype'); /* Exemplo para a versão itálico */
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Seu style existente abaixo */
+body {
+    font-family: 'Roboto', sans-serif; /* Usa a fonte Roboto como padrão */
+    /* Outros estilos do body */
+}
+
+h1, h2, h3 {
+    font-family: 'Comfortaa', sans-serif; /* Usa a fonte Comfortaa para os títulos */
+    /* Outros estilos dos títulos */
+}
+
+/* Outros estilos do seu site */
+
+.sobre-item img {
+    width: 150px; /* Ajuste o tamanho conforme desejado */
+    height: 150px; /* Para garantir que seja um círculo perfeito, width e height devem ser iguais */
+    border-radius: 50%; /* Isso cria o formato redondo */
+    border: 1px solid black; /* Define uma borda preta de 5 pixels (ajuste conforme necessário) */
+    object-fit: cover; /* Garante que a imagem cubra o círculo sem distorcer muito */
+    
+}   
